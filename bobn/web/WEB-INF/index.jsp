@@ -1,4 +1,4 @@
-<meta http-equiv="refresh" content="0; url=/main" />
+<meta http-equiv="refresh" content="0; url=/https://gitsjl.github.io/bobn/" />
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
