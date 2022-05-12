@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* 부트스트랩 반응형 제거 코드 - 전체*/
+/* 사용되는 곳 없음
+.container {
+	width: 1500px;
+	max-width: none !important;
+	margin-left: 80.500px;
+	margin-right: 80.500px;
+} */
+
+/* .p_section_container {
+	margin-left: 80.500px;
+	margin-right: 80.500px;
+	margin-top: 80.500px;
+	margin-bottom: 80.500px;
+} */
+.p_section_container {
+	margin-left: 80.500px;
+	margin-right: 80.500px;
+	margin-top: 80.500px;
+	margin-bottom: 80.500px;
+}
+.p_section_head {
+	color: #343f56;
+}
+
+.p_evtable {
+	text-decoration: none;
+	color: inherit;
+}
+.p_evtable:hover {
+	color: #f54748;
+}
+
+.pagination {
+  margin-left: 45%;
+}
+a.page-link {
+  color: #f54748;
+}

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+ 
+section > div{
+    /* display: block; */
+    overflow: hidden;
+} 
+/* 이미지 */
+.c_prodtail_image{
+    position: relative;
+    /* 안에 이미지가 400px 495px임 */
+    /* width: 300px;
+    height: 100px;  */
+    margin-left:300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /* 형제관계 */
+    float:left;
+/*     clear:both; */
+}
+/* 이미지 옆 상세내용 */
+.c_prodtail_right{
+    float: right;
+    margin-top: 100px;
+    margin-right: 370px;
+    margin-bottom: 30px;
+    /* text-align: center; */
+}
+
+.c_prodtail_proname{
+    font-size: 24px;
+    line-height: 35px;
+    color: #222;
+    letter-spacing: -0.5px;
+}
+.c_prodtail_special, strike{
+    color: f54748;
+    
+}
+.c_prodtail_price_title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.c_prodtail_price{
+    font-size: 25px;
+    font-weight: 600;
+}
+.c_prodtail_tmi {
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.c_prodtail_mibtn{
+    border-color: #e9e9e9;
+    background-position: -210px -90px;
+}
+.c_prodtail_quantity {
+    padding-top: 20px;
+    margin-right: 60px;
+}
+.c_prodtail_quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+   
+.c_prodtail_minus-btn, .c_prodtail_plus-btn{
+    width: 30px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.c_prodtail_cart-btn{
+    color: #f5e6ca;
+    background: #f54748;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+}
+.c_prodtail_buy-btn{
+    color: #f5e6ca;
+    background: #343f56;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+/* 상품 상세*/
+.c_prodtail_impor{
+    position: relative;
+    top: 550px;
+    overflow : hidden;
+    clear:both;
+}

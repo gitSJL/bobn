@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.p_section_container {
+	/* header와 시작 위치 같게 맞춤 */
+	/* margin-left 주지 않음. */
+	/* ejkim 확인하고 조정이 필요하면 조정해주세요 */
+	padding-top: 80.500px;
+	padding-bottom: 80.500px;
+	/* 자식태그가 float를 사용하고 있어서 overflow 넣어줘야함. */
+	overflow: hidden;
+}
+/* 회원 정보 보기 */
+.table table-borderless{
+	width : 500px;
+}
+
+.p_mypage_head {
+	color: #343f56;
+}
+
+.btn-primary {
+	background-color: #f54748 !important;
+	border: none !important;
+	margin-left: 130%;
+}
+
+/* 회원 탈퇴 */
+.card-body {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin: 0;
+}
+
+.form-check-input:checked {
+	background-color: #f54748 !important;
+	border: #f54748 !important;
+}
+
+.btn-danger {
+	background-color: #f54748 !important;
+	border: none !important;
+}
